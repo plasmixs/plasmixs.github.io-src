@@ -7,7 +7,7 @@ SITENAME = 'Plasmixs'
 SITEURL = 'http://plasmixs.github.io'
 TIMEZONE = 'Asia/Calcutta'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all.rss.xml'
@@ -19,13 +19,14 @@ DEFAULT_PAGINATION = 10
 
 OUTPUT_PATH = '/Mysite/plasmixs.github.io'
 
-THEME = '/Mysite/themes/pelican-bootstrap3'
+#THEME = '/Mysite/themes/pelican-bootstrap3'
 BOOTSTRAP_FLUID = True
+#JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['/Mysite/plugins']
 PLUGINS = ['tag_cloud', 'related_posts', 'tipue_search', 'summary', 'sitemap']
 
-DIRECT_TEMPLATES = ['index', 'archives', 'search']
+#DIRECT_TEMPLATES = ['index', 'archives', 'search']
 
 MARKDOWN = {
     'extension_configs': {
