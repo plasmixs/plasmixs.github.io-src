@@ -19,14 +19,14 @@ DEFAULT_PAGINATION = 10
 
 OUTPUT_PATH = '/Mysite/plasmixs.github.io'
 
-#THEME = '/Mysite/themes/pelican-bootstrap3'
+THEME = '/Mysite/themes/pelican-bootstrap3'
 BOOTSTRAP_FLUID = True
-#JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['/Mysite/plugins']
-PLUGINS = ['tag_cloud', 'related_posts', 'tipue_search', 'summary', 'sitemap']
+PLUGINS = ['tag_cloud', 'related_posts', 'tipue_search', 'summary', 'sitemap', 'i18n_subsites']
 
-#DIRECT_TEMPLATES = ['index', 'archives', 'search']
+DIRECT_TEMPLATES = ['index', 'archives', 'search']
 
 MARKDOWN = {
     'extension_configs': {
